@@ -76,8 +76,7 @@ public class Path_Finding
 		}
 		return false;
 	}
-
-	//Check the values 
+ 
 	static boolean search(int[][] input, int[][] solution, int r, int c) 
 	{
 		if(r<row && c<column && r>=0 && c>=0 && input[r][c]==1 && solution[r][c]==0)
